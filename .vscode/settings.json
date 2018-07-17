@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "${workspaceFolder}/myenv/bin/python",
+    "python.linting.pylintEnabled": false,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/myenv/**": true,
+      },
+}
