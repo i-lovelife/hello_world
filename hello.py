@@ -8,4 +8,5 @@ ptvsd.wait_for_attach()
 
 import torch
 print('hello world2')
+print(torch.cuda.is_available())
 print('hello world')
